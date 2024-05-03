@@ -1,6 +1,6 @@
 from flask import render_template, url_for, redirect, g, abort, request
-from app_testing import app
-from app_testing.forms import TaskForm
+from app import app
+from app.forms import TaskForm
 
 # rethink imports
 import rethinkdb as r
